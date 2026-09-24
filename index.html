@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Actividad 2 ! Login</title>
+    <!--referencia a estilos en doc externo-->
+    <link rel="stylesheet" href="css\utileria.css">
+    <script src="js/utileria.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Interzwght@400;500,600&display-swap" rel=" stylesheet">
+</head>
+<body>
+    <div class="contenedorformulario">
+        <h1>CREA UNA NUEVA CUENTA</h1>
+        <p class="subtitulo">Registrese aquí</p>
+        <img src="img/snoopy.jpeg" alt="snoopylogin" width="200"><br>
+        
+
+        <form class="formularios" id="formLogin">
+            <!--Datos basicos (grupo1)-->
+            <div class="grupo-formulario">
+                <label for="nombre">Ingrese su nombre completo:</label>
+                <input type="text" id="nombre" placeholder="Maria Pérez" required>
+
+                <label for="nac">Ingrese su fecha de nacimiento:</label>
+                <input type="date" id="nac" placeholder="" required>
+
+                <label for="correo">Ingrese su correo:</label>
+                <input type="text" id="correo" placeholder="example@gmail.com" required>
+
+                <label for="tel">Ingrese su telefono:</label>
+                <input type="num" id="tel" placeholder="9516075175" required>
+
+                <label for="pass">Ingrese su contraseña (minimo 8 caracteres, 1 mayuscula 1 numero y 1 caracter especial):</label>
+                <input type="password" id="pass" placeholder="******" required>
+
+            </div>
+            <div class="botonform">
+                <button type="submit" class="boton-enviar">Registrarse</span></button>
+            </div>
+        </form>
+
+        <p><a href="login.html" target="_blank">Inicia sesion</a></p>
+    
+    </div>
+</body>
+</html>

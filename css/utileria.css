@@ -1,0 +1,135 @@
+/*
+Variables css (custom properties)
+Proposito: Centralizar colores fuentes y tamaños para facil mantenimiento
+Beneficios: Cambios globales desde un solo lugar-*/
+
+:root{
+    --color-primario: #ffc115;
+    --color-secundario: #eee01b;
+    --color-fondo: #f1fbc1;
+    --color-texto: #000000;
+    --color-borde: #e9ecef;
+}
+
+/*
+Recet basico
+Proposito: Eliminar margenes y paddings predeterminados del navegador.
+Beneficios: Evita inconsitencias entre navegadores-*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*estilos generales
+tipografia y fondo*/
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/*contenedor principal
+*/
+
+.contenedorformulario{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* estilos tipograficos*/
+
+h1{
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+}
+
+.subtitulo{
+    color: #6c757d;
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/*grupos de formularios*/
+.formularios{
+    width: 100%;
+}
+.grupo-formulario{
+    margin-bottom: 20px;
+}
+.botonform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+/*inputs y textarea*/
+
+input{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    transition: all 0.3s;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+input:focus{
+    border-color: var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+}
+
+/*disposion en columnas grupo doble*/
+.grupo-doble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/*bton de envio*/
+.boton-enviar{
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-enviar:hover{
+    background-color: #c09625;
+}
