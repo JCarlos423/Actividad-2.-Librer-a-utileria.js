@@ -1,9 +1,9 @@
 # TECNOLOGICO NACIONAL DE MEXICO
-**INSTITUTO TECNOLOGICO DE OAXACA**
-**Utilería JS - Validación de Formularios**
-**Autor** Canseco Reyes Juan Carlos
-**Materia:** Programacion Web
-**Profesor** Martinez Nieto Adelina
+### **INSTITUTO TECNOLOGICO DE OAXACA**
+### **Utilería JS - Validación de Formularios**
+### **Autor** Canseco Reyes Juan Carlos
+### **Materia:** Programacion Web
+### **Profesor** Martinez Nieto Adelina
 **Problema que resuelve:** Evita la entrada de datos basura (nombres con números, correos mal formados, contraseñas débiles o menores de edad) en los formularios web, centralizando las validaciones en una sola librería ligera sin dependencias.
 
 ---
