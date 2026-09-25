@@ -133,3 +133,10 @@ function diasParaCumpleanos(fechaNacimiento) {
     return resultado;
 }
 ```
+## Caputras de Pantalla
+
+Interfaz para registro de usuario:
+(img/interfaz1.png)
+
+Interfaz de el login:
+(img/interfazlogin.png)

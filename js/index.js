@@ -4,12 +4,16 @@
         formularioRegistro.addEventListener('submit', function(evento) {
             evento.preventDefault(); // Evita que la página recargue
 
+            console.log("✅ Se hizo clic en el botón 'Registrarse'. Iniciando validaciones...");
+
             // Obtenemos los valores de los inputs usando tus IDs
             const nombre = document.getElementById('nombre').value;
             const fechaNac = document.getElementById('nac').value;
             const correo = document.getElementById('correo').value;
             const telefono = document.getElementById('tel').value;
             const password = document.getElementById('pass').value;
+
+            console.log("Datos ingresados:", { nombre, fechaNac, correo, telefono });
 
             // 1. VALIDACIONES OBLIGATORIAS
             if (!soloLetras(nombre)) {
