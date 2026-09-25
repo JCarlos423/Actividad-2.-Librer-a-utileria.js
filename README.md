@@ -134,17 +134,17 @@ function diasParaCumpleanos(fechaNacimiento) {
 }
 ```
 ## Caputras de Pantalla
-Interfaz para registro de usuario:
+### Interfaz para registro de usuario:
 ![Interfaz para registro de usuario:](img/interfaz1.png)
-Interfaz de el login:
+### Interfaz de el login:
 ![Interfaz de el login:](img/interfazlogin.png)
-Ejemplo de error de registro en consola podemos vwer todas las validaciones hechas y en cual fallo y detuvo la ejecucion de el registro:
+### Ejemplo de error de registro en consola podemos vwer todas las validaciones hechas y en cual fallo y detuvo la ejecucion de el registro:
 ![error en registro](img/regerr.png)
-Registro exitoso poemos ver en consola todas las validaciones y calculos hechos para el registro:
+### Registro exitoso poemos ver en consola todas las validaciones y calculos hechos para el registro:
 ![reg exitoso](img/regexitoso.png)
-Error en login nos dice que validacion fallo si el correo o la contraseña:
+### Error en login nos dice que validacion fallo si el correo o la contraseña:
 ![error en login](img/errorlogin.png)
-Login exitoso:
+### Login exitoso:
 ![login exitoso](img/loginexitoso.png)
 
 
